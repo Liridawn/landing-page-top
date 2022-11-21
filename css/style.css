@@ -1,0 +1,52 @@
+/* Universala saker */
+
+* {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+h3 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* Header */
+
+header {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.header h2 {
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+}
