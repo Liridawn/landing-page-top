@@ -1,52 +1,261 @@
-/* Universala saker */
+/* Universal */
 
-* {
-    color: #fff;
+*{
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+a,
+p {
+    color: #F9FAF8;
 }
 
 h1 {
     font-size: 48px;
-    color: #F9FAF8;
 }
 
 h2 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #F9FAF8;
+    font-size: 24px;
 }
 
 h3 {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #a5a5a5;
+}
+
+/* body {
+    background-color: #1F2937
+} */
+
+button {
+    background-color: #3882F6;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-}
-/* Header */
+/* First container */
 
-header {
-    background-color: #1F2937;
-    height: 400px;
+.background-one {
+    background-color: #1F2937
 }
 
-.header h2 {
-    margin-left: 40px;
+.logo {
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
-.container {
+.logo.img {
+    margin-left: 240px;
+    width: 300px;    
+}
+
+.logo.img:hover {
+    cursor: pointer;    
+}
+
+.first-container {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.first-container .menu {
+    gap: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.first-container .menu a:hover {
+    border-bottom: #E5E7EB 2px solid;
+}
+
+/* Second container */
+
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 100px;
     justify-content: space-between;
 }
 
-header ul {
+.sub-title {
+    width: 300px;
+    margin-left: 100px;
+}
+
+.placeholder {
     display: flex;
-    gap: 10px;
-    margin-right: 40px;
+    background-color: gray;
+    padding: 60px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+.placeholder > p {
+    text-align: center;
+}
+
+.first-button {
+    width: 100px;
+    color: #E5E7EB;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.first-button:hover {
+    color: #000;
+    font-weight: 700;
+}
+
+/* Third container */
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-container img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    gap: 12px;
+    border: 2px solid #1F2937;
+    border-radius: 10px;
+}
+
+.img-container img:hover {
+    margin-top: 20px;
+}
+
+.images p {
+    color: #000;
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.random h2 {
+    color: #000;
+    text-align: center;
+    margin-top: 20px
+}
+
+/* Fourth container */
+
+.fourth-container {
+    background-color: #a5a5a5;
+    height: 300px;
+}
+
+.quote {
+    font-size: 38px;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+.quote p {
+    margin-top: 20px;
+}
+
+.quote-name {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+/*  Fifth container */
+
+.fifth-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+}
+
+.fifth-container {
+    margin: 80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 1000px;
+}
+
+.fifth-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-header {
+    font-weight: 900;
     font-size: 18px;
+    margin: 40px 0 0 0;
+}
+
+.fifth-header p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fifth-subtext {
+    margin: 0 0 40px 0;
+}
+
+.second-button  {
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+
+.second-button:hover  {
+    color: #000;
+    font-weight: 700;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.footer p:hover {
+    color: #a5a5a5;
+    text-decoration: underline;
 }
